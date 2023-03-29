@@ -13,6 +13,7 @@ public class MovementController : MonoBehaviour
     public Rigidbody2D rb;
     private float xMove;
     private float yMove;
+    private bool jumpFlag; 
     // Start is called before the first frame update
     void Start()
     {
@@ -41,14 +42,18 @@ public class MovementController : MonoBehaviour
             xMove= 0;
             yMove= 0;
         }
-        
+
+        if (Input.GetKeyDown(pUp)) 
+        { 
+        jumpFlag = true;
+        }
     }
 
     private void FixedUpdate()
     {
         if (Player1)
         {
-            rb.velocity = new Vector2(xMove * speed * 10 * Time.fixedDeltaTime, yMove * speed * 10 * Time.fixedDeltaTime);
+            rb.velocity = new Vector2(xMove * speed * 10 * Time.fixedDeltaTime, rb.velocity.y);
             
         }
         else
@@ -58,5 +63,9 @@ public class MovementController : MonoBehaviour
            
         }
 
+        if (jumpFlag) {
+            rb.velocity = new Vector2(rb.velocity.x, 10);
+            jumpFlag = false;
+        }
     }
 }
