@@ -55,12 +55,15 @@ public class MovementController : MonoBehaviour
         {
             rb.velocity = new Vector2(xMove * speed * 10 * Time.fixedDeltaTime, rb.velocity.y);
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (jumpFlag)
             {
                 rb.velocity = new Vector2(rb.velocity.x, 10);
                 jumpFlag = false;
             }
 =======
+=======
+>>>>>>> b3e4ca6531ba2344859f6b468ba2fb7f0566ca8f
             
 >>>>>>> b3e4ca6531ba2344859f6b468ba2fb7f0566ca8f
         }
@@ -78,6 +81,9 @@ public class MovementController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 10);
             jumpFlag = false;
         }
+<<<<<<< HEAD
+>>>>>>> b3e4ca6531ba2344859f6b468ba2fb7f0566ca8f
+=======
 >>>>>>> b3e4ca6531ba2344859f6b468ba2fb7f0566ca8f
     }
 }
