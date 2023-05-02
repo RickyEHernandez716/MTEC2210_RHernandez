@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8931093911029700605}
   - component: {fileID: 7988860493805494298}
-  - component: {fileID: 62342192339069151}
   - component: {fileID: 5192684712275249155}
   m_Layer: 0
   m_Name: Hazard 1
@@ -86,21 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &62342192339069151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8546105277998757788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 690ad7658b23f0940a5a030e1d2ef713, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  startPoint: {fileID: 0}
-  player: {fileID: 0}
 --- !u!60 &5192684712275249155
 PolygonCollider2D:
   m_ObjectHideFlags: 0

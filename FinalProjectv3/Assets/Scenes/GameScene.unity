@@ -151,11 +151,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 372994830}
   - {fileID: 558114897}
   - {fileID: 1729331949}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &84643672
 PrefabInstance:
@@ -466,14 +465,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1339938829}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: Base Floor Hazard (4)
@@ -599,7 +590,7 @@ Transform:
   - {fileID: 1862578287}
   - {fileID: 689609343}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &185593944
 PrefabInstance:
@@ -608,14 +599,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148381300}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: First Floor Hazard (1)
@@ -847,14 +830,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1339938829}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: Base Floor Hazard
@@ -912,14 +887,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1339938829}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: Base Floor Hazard (2)
@@ -1053,11 +1020,6 @@ Transform:
 --- !u!1 &372994829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2103439451867227435, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
-  m_PrefabInstance: {fileID: 7106699005284955732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &372994830 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
   m_PrefabInstance: {fileID: 7106699005284955732}
   m_PrefabAsset: {fileID: 0}
 --- !u!61 &372994831
@@ -1508,7 +1470,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1582,19 +1543,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4758eda0f3af181419b2c3fb6805ac90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 372994829}
 --- !u!1001 &522405090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1602,14 +1550,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148381300}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: First Floor Hazard (2)
@@ -1694,7 +1634,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 73399737}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &595037356
 GameObject:
@@ -1997,14 +1937,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148381300}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: First Floor Hazard (4)
@@ -2067,14 +1999,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1339938829}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: Base Floor Hazard (1)
@@ -4280,14 +4204,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148381300}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: First Floor Hazard
@@ -4350,14 +4266,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1339938829}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: Base Floor Hazard (3)
@@ -4541,6 +4449,8 @@ MonoBehaviour:
   player: {fileID: 372994829}
   hazardPrefab: {fileID: 0}
   hazardArray: []
+  camTarget: {fileID: 372994829}
+  cam: {fileID: 519420028}
 --- !u!4 &1729331949
 Transform:
   m_ObjectHideFlags: 0
@@ -4554,7 +4464,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 73399737}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1740282130
 PrefabInstance:
@@ -5055,14 +4965,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148381300}
     m_Modifications:
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 372994829}
-    - target: {fileID: 62342192339069151, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
-      propertyPath: startPoint
-      value: 
-      objectReference: {fileID: 558114896}
     - target: {fileID: 8546105277998757788, guid: 247b511cdbfc7784e9f8321ab65bb2f0, type: 3}
       propertyPath: m_Name
       value: First Floor Hazard (3)
@@ -5259,7 +5161,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 73399737}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2103439451867227435, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_Name
@@ -5269,9 +5171,13 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4720727640334319137, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalScale.x
@@ -5283,15 +5189,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.76595
+      value: -7.500307
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6957
+      value: -3.404222
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.005289221
+      value: 0.014710778
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5299,15 +5205,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9170984782542255123, guid: 9f6059d2a440ae244a864e725b8ef794, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
