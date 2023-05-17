@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 5062479552163751717}
   - component: {fileID: -2270559977422146720}
   - component: {fileID: -4055488257001215782}
-  - component: {fileID: -3870027838838314994}
+  - component: {fileID: 7858348279426102789}
   m_Layer: 0
   m_Name: Hazard 2
-  m_TagString: Hazard
+  m_TagString: Hazard2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-3870027838838314994
+--- !u!114 &7858348279426102789
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,11 +133,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7269201255874124256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 690ad7658b23f0940a5a030e1d2ef713, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d69219ca19056c46a1dd0590badafbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {fileID: 0}
-  player: {fileID: 0}
-  hazardPrefab: {fileID: 0}
-  hazardSpawnArray: []
-  hazardSpawnArray2: []

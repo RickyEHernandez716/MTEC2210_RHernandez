@@ -16,9 +16,12 @@ public class PlayerController : MonoBehaviour
     private float yMove;
     private bool jumpFlag; 
     private bool isJumping; 
+
+    public GameManager gm;
     // Start is called before the first frame update
     void Start()
     {
+        //gm = GameObject.Find("Game Manager").GetComponent<GameManager>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -93,6 +96,12 @@ public class PlayerController : MonoBehaviour
             if(other.gameObject.CompareTag("Box"))
             {
                 isJumping = false;
+            }
+            
+            if(other.gameObject.CompareTag("Hazard2"))
+            {
+                gm.ResetPlayer();
+               // Destroy(gameObject);
             }
         }
 

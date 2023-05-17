@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         InvokeRepeating("spawnHazard1", 0, 2);
         InvokeRepeating("spawnHazard2", 3, 4);
         
@@ -47,6 +48,12 @@ private void OnCollisionEnter2D(Collision2D playerDeath)
     {
          player.transform.position = startPoint.transform.position;
     }
+}
+
+public void ResetPlayer()
+{
+     player.transform.position = startPoint.transform.position;
+
 }
 
 private void spawnHazard1()
